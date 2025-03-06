@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
+## Projeto de estudo Criando um Sistema de Biblioteca **Vite**, **React**, **TailwindCSS** e **Lucide Icons**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias Utilizadas
 
-Currently, two official plugins are available:
+- **Vite**: Ferramenta para construir e rodar projetos React de forma rápida e otimizada.
+- **React**: Biblioteca JavaScript para criar interfaces de usuário.
+- **TailwindCSS**: Framework CSS utilitário para facilitar o desenvolvimento de layouts responsivos e customizados.
+- **Lucide Icons**: Conjunto de ícones para usar em componentes interativos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demonstração
 
-## Expanding the ESLint configuration
+Aqui estão os prints das telas criadas:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![image](https://github.com/user-attachments/assets/44dc7183-b135-48a9-b66f-62bb3b71cb26)
+![image](https://github.com/user-attachments/assets/3fdb8f5c-ae48-4a6c-9e74-0fba7c44012f)
+![image](https://github.com/user-attachments/assets/d6467577-3f58-4259-8506-b40b952d7040)
 
-- Configure the top-level `parserOptions` property like this:
+## Como Rodar o Projeto
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/arthuracmm/library-node
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd library-node
+    ```
+
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4. Rode o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+
+4. Rode o banco de dados:
+```bash
+npm run json-server
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+5. Acesse o projeto no seu navegador em [http://localhost:5173](http://localhost:5173).
+6. Você tambem pode acessar a API local em [http://localhost:5000](http://localhost:5000)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## VIDEO DO SISTEMA FUNCIONANDO ABAIXO
+[Conferir Video](https://www.linkedin.com/posts/arthur-marcelino-b311752b8_100daysofcode-50daysofcode-react-activity-7303450357777494017-T-1y?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEwy6xUB0eDV80Hl5R30rrwWmBpgOwakzOM)
