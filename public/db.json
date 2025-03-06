@@ -1,0 +1,346 @@
+{
+  "livros": [
+    {
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "ano_publicacao": 1899,
+      "isbn": "978-8520914524",
+      "id": "9dbf",
+      "quantidade": 0
+    },
+    {
+      "titulo": "O Primo Basílio",
+      "autor": "José de Alencar",
+      "ano_publicacao": 1878,
+      "isbn": "978-8516021076",
+      "id": "cf03",
+      "quantidade": 4
+    },
+    {
+      "titulo": "A Moreninha",
+      "autor": "Joaquim Manuel de Macedo",
+      "ano_publicacao": 1844,
+      "isbn": "978-8520903452",
+      "id": "3ec4",
+      "quantidade": 3
+    },
+    {
+      "titulo": "Iracema",
+      "autor": "José de Alencar",
+      "ano_publicacao": 1865,
+      "isbn": "978-8520900789",
+      "id": "c916",
+      "quantidade": 4
+    },
+    {
+      "titulo": "Senhora",
+      "autor": "José de Alencar",
+      "ano_publicacao": 1875,
+      "isbn": "978-8520904589",
+      "id": "d580",
+      "quantidade": 2
+    },
+    {
+      "titulo": "Memórias Póstumas de Brás Cubas",
+      "autor": "Machado de Assis",
+      "ano_publicacao": 1881,
+      "isbn": "978-8520910473",
+      "id": "e108",
+      "quantidade": 6
+    },
+    {
+      "titulo": "O Guarani",
+      "autor": "José de Alencar",
+      "ano_publicacao": 1857,
+      "isbn": "978-8520904534",
+      "id": "c288",
+      "quantidade": 7
+    },
+    {
+      "titulo": "O Cortiço",
+      "autor": "Aluísio Azevedo",
+      "ano_publicacao": 1890,
+      "isbn": "978-8520916468",
+      "id": "3408",
+      "quantidade": 0
+    },
+    {
+      "titulo": "Grande Sertão: Veredas",
+      "autor": "João Guimarães Rosa",
+      "ano_publicacao": 1956,
+      "isbn": "978-8520904213",
+      "id": "0b91",
+      "quantidade": 8
+    },
+    {
+      "titulo": "Cem Anos de Solidão",
+      "autor": "Gabriel García Márquez",
+      "ano_publicacao": 1967,
+      "isbn": "978-8535915783",
+      "id": "1aaf",
+      "quantidade": 5
+    },
+    {
+      "id": "3057",
+      "titulo": "livro linkedin",
+      "autor": "Machado de Assis",
+      "ano_publicacao": "1231",
+      "isbn": "adsada-31313"
+    },
+    {
+      "id": "6c01",
+      "titulo": "livro linkedin",
+      "autor": "Machado de Assis",
+      "ano_publicacao": "1990",
+      "isbn": "13131-13131"
+    },
+    {
+      "id": "b486",
+      "titulo": "aaaaaaaaaaaaaa",
+      "autor": "José de Alencar",
+      "ano_publicacao": "131",
+      "isbn": "dadasda"
+    },
+    {
+      "id": "f963",
+      "titulo": "aaaaaaaaaaaaaa",
+      "autor": "Machado de Assis",
+      "ano_publicacao": "1313",
+      "isbn": "19238-31313",
+      "quantidade": 9
+    }
+  ],
+  "emprestimos": [
+    {
+      "livro": "Dom Casmurro",
+      "usuario": "João Silva",
+      "data_emprestimo": "2025-03-01",
+      "data_devolucao": "2025-03-08",
+      "devolvido": false,
+      "id": "bc0e"
+    },
+    {
+      "livro": "O Primo Basílio",
+      "usuario": "Maria Oliveira",
+      "data_emprestimo": "2025-03-03",
+      "data_devolucao": "2025-03-10",
+      "devolvido": false,
+      "id": "58ca"
+    },
+    {
+      "livro": "A Moreninha",
+      "usuario": "Carlos Souza",
+      "data_emprestimo": "2025-03-05",
+      "data_devolucao": "2025-03-12",
+      "devolvido": false,
+      "id": "9246"
+    },
+    {
+      "livro": "Iracema",
+      "usuario": "Ana Costa",
+      "data_emprestimo": "2025-03-07",
+      "data_devolucao": "2025-03-14",
+      "devolvido": false,
+      "id": "7206"
+    },
+    {
+      "livro": "Senhora",
+      "usuario": "Roberto Lima",
+      "data_emprestimo": "2025-03-08",
+      "data_devolucao": "2025-03-15",
+      "devolvido": false,
+      "id": "a5d7"
+    },
+    {
+      "livro": "Memórias Póstumas de Brás Cubas",
+      "usuario": "Cláudia Pereira",
+      "data_emprestimo": "2025-03-10",
+      "data_devolucao": "2025-03-17",
+      "devolvido": false,
+      "id": "7ec9"
+    },
+    {
+      "livro": "O Guarani",
+      "usuario": "Felipe Martins",
+      "data_emprestimo": "2025-03-12",
+      "data_devolucao": "2025-03-19",
+      "devolvido": false,
+      "id": "cd41"
+    },
+    {
+      "livro": "O Cortiço",
+      "usuario": "Larissa Alves",
+      "data_emprestimo": "2025-03-14",
+      "data_devolucao": "2025-03-21",
+      "devolvido": false,
+      "id": "1f4b"
+    },
+    {
+      "livro": "Dom Casmurro",
+      "usuario": "Júlio César",
+      "data_emprestimo": "2025-03-15",
+      "data_devolucao": "2025-03-22",
+      "devolvido": false,
+      "id": "dc83"
+    },
+    {
+      "livro": "O Primo Basílio",
+      "usuario": "Mariana Rocha",
+      "data_emprestimo": "2025-03-17",
+      "data_devolucao": "2025-03-24",
+      "devolvido": false,
+      "id": "654a"
+    },
+    {
+      "livro": "A Moreninha",
+      "usuario": "Eduardo Gomes",
+      "data_emprestimo": "2025-03-20",
+      "data_devolucao": "2025-03-27",
+      "devolvido": false,
+      "id": "76c8"
+    },
+    {
+      "livro": "Iracema",
+      "usuario": "Luciana Silva",
+      "data_emprestimo": "2025-03-22",
+      "data_devolucao": "2025-03-29",
+      "devolvido": false,
+      "id": "c059"
+    },
+    {
+      "id": "4031",
+      "livro": "Dom Casmurro",
+      "usuario": "João Silva",
+      "data_emprestimo": "2025-03-06",
+      "data_devolucao": "2025-03-13",
+      "devolvido": false
+    },
+    {
+      "id": "c528",
+      "livro": "A Moreninha",
+      "usuario": "João Silva",
+      "data_emprestimo": "2025-03-06",
+      "data_devolucao": "2025-03-13",
+      "devolvido": false
+    },
+    {
+      "id": "cd6e",
+      "livro": "Dom Casmurro",
+      "usuario": "Maria Oliveira",
+      "data_emprestimo": "2025-02-20",
+      "data_devolucao": "2025-02-27",
+      "devolvido": true
+    },
+    {
+      "livro": "Grande Sertão: Veredas",
+      "usuario": "Pedro Santos",
+      "data_emprestimo": "2025-02-20",
+      "data_devolucao": "2025-02-27",
+      "devolvido": false,
+      "id": "e1a2"
+    },
+    {
+      "livro": "Cem Anos de Solidão",
+      "usuario": "Ana Paula",
+      "data_emprestimo": "2025-02-22",
+      "data_devolucao": "2025-03-01",
+      "devolvido": false,
+      "id": "b3c4"
+    },
+    {
+      "livro": "O Guarani",
+      "usuario": "Carlos Mendes",
+      "data_emprestimo": "2025-02-24",
+      "data_devolucao": "2025-03-03",
+      "devolvido": false,
+      "id": "d5e6"
+    },
+    {
+      "livro": "O Cortiço",
+      "usuario": "Fernanda Lima",
+      "data_emprestimo": "2025-02-25",
+      "data_devolucao": "2025-03-04",
+      "devolvido": true,
+      "id": "f7g8"
+    },
+    {
+      "livro": "Senhora",
+      "usuario": "Roberto Lima",
+      "data_emprestimo": "2025-02-26",
+      "data_devolucao": "2025-03-05",
+      "devolvido": true,
+      "id": "h9i0"
+    },
+    {
+      "id": "a338",
+      "livro": "aaaaaaaaaaaaaa",
+      "usuario": "Maria Oliveira",
+      "data_emprestimo": "2025-03-06",
+      "data_devolucao": "2025-03-13"
+    }
+  ],
+  "usuarios": [
+    {
+      "nome": "João Silva",
+      "email": "joao.silva@email.com",
+      "id": "6ab6"
+    },
+    {
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@email.com",
+      "id": "7cf0"
+    },
+    {
+      "id": "c99b",
+      "nome": "Arthur DEV",
+      "email": "arthuracmdev@gmail.com"
+    },
+    {
+      "id": "52a0",
+      "nome": "arthur linkedin",
+      "email": "arthuracmdev@gmail.com"
+    }
+  ],
+  "autores": [
+    {
+      "nome": "Machado de Assis",
+      "nacionalidade": "Brasileiro",
+      "id": "ae61"
+    },
+    {
+      "nome": "José de Alencar",
+      "nacionalidade": "Brasileiro",
+      "id": "15a1"
+    },
+    {
+      "nome": "Joaquim Manuel de Macedo",
+      "nacionalidade": "Brasileiro",
+      "id": "bc74"
+    },
+    {
+      "nome": "Aluísio Azevedo",
+      "nacionalidade": "Brasileiro",
+      "id": "2f41"
+    },
+    {
+      "nome": "João Guimarães Rosa",
+      "nacionalidade": "Brasileiro",
+      "id": "d77c"
+    },
+    {
+      "nome": "Gabriel García Márquez",
+      "nacionalidade": "Colombiano",
+      "id": "f4f7"
+    },
+    {
+      "id": "6e4b",
+      "nome": "Arthur DEV",
+      "nacionalidade": "Brasil"
+    },
+    {
+      "id": "3869",
+      "nome": "arthur acm",
+      "nacionalidade": "brasil"
+    }
+  ]
+}
